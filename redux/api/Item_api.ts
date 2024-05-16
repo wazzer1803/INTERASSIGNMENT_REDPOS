@@ -15,7 +15,7 @@ export const ItemApi_RTK_QUERY = createApi({
   baseQuery: fetchBaseQuery({
     baseUrl:
       // "http://localhost:4000/api/v1",
-      "https://wellfound-redpositive-table-curd.onrender.com/api/v1",
+      "https://interassignment-redpos-zl5w.vercel.app/",
     prepareHeaders(headers) {
       const token = localStorage.getItem("token");
       if (token) {
